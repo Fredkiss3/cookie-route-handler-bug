@@ -14,4 +14,5 @@ export const metadata: Metadata = {
     template:  "%s - metadata bug",
     default: 'Layout - metadata bug',
   },
+  description: "This is a bug for the metadata"
 };
