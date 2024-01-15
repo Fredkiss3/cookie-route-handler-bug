@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Home"
+  title: "(home)"
 };
 
 /** Add your relevant code here for the issue to reproduce */

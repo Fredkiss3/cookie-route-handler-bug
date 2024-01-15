@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 export default function RootLayout({ children }) {
   return (
     <html>
@@ -6,3 +8,10 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+export const metadata: Metadata = {
+  title: {
+    template:  "%s - metadata bug",
+    default: 'Layout - metadata bug',
+  },
+};
